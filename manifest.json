@@ -1,0 +1,16 @@
+{
+  "name": "Productive redirect",
+  "version": "0.1",
+  "description": "Has a probability to redirect Facebook to reddit saved pages, Youtube saves videos or bookmarks.",
+  "background": {
+    "persistent": false,
+    // "scripts": ["background.js"]
+    "page": "background.html"
+  },
+  "permissions": ["http://*.facebook.com/*", "https://*.facebook.com/*"],
+  "browser_action": {
+    "default_title": "",
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 2
+}
